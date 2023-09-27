@@ -32,6 +32,9 @@ namespace igraNaKarte
                     karte = 0;
                 }
             }
+
+            Console.WriteLine("  Ukupan iznos unešenih vrijednosti karta je:  " +vrijednost );
+            
             if(vrijednost == 31)
             {
                 Console.WriteLine("  Svakačast, Pobjedio.  ");
